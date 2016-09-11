@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ComposicionNutricional</string>
+
+    <string name="tipo_alimento">GRUPO DE ALIMENTOS</string>
+    <string name="action_settings">HERRAMIENTAS</string>
+    <string name="alimento">SELECCION DE ALIMENTOS</string>
+    <string name="agregar">AGREGAR</string>
+    <string name="calcular">Calcular</string>
+    <string name="porciones">PORCIONES</string>
+
+
+
+</resources>

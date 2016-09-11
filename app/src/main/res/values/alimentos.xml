@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_tipos_a_alimentos">
+        <item>@array/alimentos_almidon</item>
+        <item>@array/alimentos_carnes_grasas</item>
+        <item>@array/alimentos_carnes_magras</item>
+        <item>@array/alimentos_carnes_semi_magras</item>
+        <item>@array/alimentos_dulces</item>
+        <item>@array/alimentos_frutas</item>
+        <item>@array/alimentos_grasas</item>
+        <item>@array/alimentos_lacteos_desnatados</item>
+        <item>@array/alimentos_lacteos_enteros</item>
+        <item>@array/alimentos_lacteos_semidescremados</item>
+        <item>@array/alimentos_proteínas_de_origen_vegetal</item>
+        <item>@array/alimentos_verduras</item>
+    </array>
+
+    <string-array name="alimentos">
+        <item>Almidones</item>
+        <item>Carnes Grasas</item>
+        <item>Carnes Magras</item>
+        <item>Carnes Semi Magras</item>
+        <item>Dulces</item>
+        <item>Frutas</item>
+        <item>Grasas</item>
+        <item>Lacteos Desnatados</item>
+        <item>Lacteos Enteros</item>
+        <item>Lacteos Semidescremados</item>
+        <item>Proteínas de Origen Vegetal</item>
+        <item>Verduras</item>
+    </string-array>
+
+
+    <string-array name="alimentos_almidon">
+        <item>Yuca</item>
+        <item>Camote</item>
+        <item>Olluco</item>
+        <item>Zanahoria</item>
+        <item>Arroz</item>
+    </string-array>
+
+    <string-array name="alimentos_carnes_grasas">
+        <item>Cordero</item>
+        <item>Cerdo</item>
+        <item>Galllina</item>
+        <item>Res</item>
+    </string-array>
+    <string-array name="alimentos_carnes_magras">
+        <item>sssss</item>
+        <item>aaaa</item>
+        <item>fffff</item>
+        <item>dddddd</item>
+
+    </string-array>
+    <string-array name="alimentos_carnes_semi_magras">
+        <item>fddddd</item>
+        <item>rttttt</item>
+        <item>dddddd</item>
+        <item>dddggg</item>
+    </string-array>
+    <string-array name="alimentos_dulces">
+        <item>Chocolates</item>
+        <item>Tortas</item>
+        <item>Galletas</item>
+        <item>Jugos</item>
+    </string-array>
+    <string-array name="alimentos_frutas">
+        <item>Naranja</item>
+        <item>Manzana</item>
+        <item>Mandarina</item>
+        <item>Durazno</item>
+    </string-array>
+    <string-array name="alimentos_grasas">
+        <item>helados</item>
+        <item>chocolates</item>
+        <item>carnes fritas</item>
+        <item>papas fritas</item>
+    </string-array>
+    <string-array name="alimentos_lacteos_desnatados">
+        <item>leche</item>
+        <item>yogurt</item>
+        <item>leche evaporada</item>
+        <item>yogurt natural</item>
+    </string-array>
+    <string-array name="alimentos_lacteos_enteros">
+        <item>yogurt natural</item>
+        <item>leche entera</item>
+        <item>leche descremada</item>
+    </string-array>
+    <string-array name="alimentos_lacteos_semidescremados">
+
+    </string-array>
+    <string-array name="alimentos_proteínas_de_origen_vegetal"></string-array>
+    <string-array name="alimentos_verduras">
+        <item>zanahorias</item>
+        <item>Tomate</item>
+        <item>Lechugas</item>
+        <item>Repollo</item>
+    </string-array>
+
+</resources>

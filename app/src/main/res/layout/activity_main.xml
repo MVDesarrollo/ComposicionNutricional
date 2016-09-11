@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bamsac.composicionnutricional.MainActivity">
+
+    <TextView
+        android:id="@+id/tvTipoAlimento"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo_alimento" />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnTipoAlimento"
+        android:layout_below="@+id/tvTipoAlimento"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alimento"
+        android:id="@+id/tvAlimento"
+        android:layout_below="@+id/spnTipoAlimento"/>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvAlimento"
+        android:layout_below="@+id/tvAlimento"
+        android:numColumns="2"
+        android:textFilterEnabled="true"
+        android:choiceMode="multipleChoice"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agregar"
+        android:id="@+id/btnAgregar"
+        android:layout_below="@id/lvAlimento"/>
+
+  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/porciones"
+        android:id="@+id/btnPorciones"
+        android:layout_below="@id/lvAlimento"
+        android:layout_toRightOf="@+id/btnAgregar"
+        android:layout_toEndOf="@+id/btnAgregar" />
+
+</RelativeLayout>
