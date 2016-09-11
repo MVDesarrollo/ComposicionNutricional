@@ -41,6 +41,7 @@
         <item>Zanahoria</item>
         <item>Arroz</item>
         <item>Papa</item>
+        <item>Choclo</item>
     </string-array>
 
     <string-array name="alimentos_carnes_grasas">
