@@ -1,30 +1,40 @@
 package com.bamsac.composicionnutricional;
 
-import android.content.ClipData;
+import android.content.Intent;
 import android.content.res.TypedArray;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner spTipoAlimento;
     ListView lvAlimento;
+    Button  btnAgregar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        this.btnAgregar = (Button)findViewById(R.id.btnAgregar);
         this.spTipoAlimento = (Spinner)findViewById(R.id.spnTipoAlimento);
         this.lvAlimento = (ListView) findViewById(R.id.lvAlimento);
 
         cargarTipoAlimento();
+
+        btnAgregar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Seleccion = new Intent(MainActivity.this, Seleccion_Alimentos.class);
+                startActivity(Seleccion);
+            }
+        });
     }
 
     private void cargarTipoAlimento() {

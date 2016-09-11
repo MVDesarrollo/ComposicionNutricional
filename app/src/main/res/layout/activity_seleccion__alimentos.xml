@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_seleccion__alimentos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bamsac.composicionnutricional.Seleccion_Alimentos">
+
+
+
+        <GridLayout
+            android:id="@+id/grvTipoAlimentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:layout_margin="5sp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgFrutas"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgLacteosSemidescremados"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgLacteosDesnatados"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgCarnesSemiMagras"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgProteinasVegetal"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgGrasas"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgCarnesMagras"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgLacteosEnteros"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgAlmidon"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgCarnesGrasas"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgDulces"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_almidon"
+                android:id="@+id/imgVerduras"
+                android:contentDescription="@string/descripcion"
+                android:layout_margin="2sp"
+                />
+
+        </GridLayout>
+
+
+
+
+</RelativeLayout>
